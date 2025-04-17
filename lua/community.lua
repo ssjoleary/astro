@@ -104,4 +104,6 @@ return {
   -- Neovide GUI - scaling functions & key mappings
   { import = "astrocommunity.recipes.neovide" },
   -- ----------------------------------------------
+  { import = "astrocommunity.recipes.ai" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
